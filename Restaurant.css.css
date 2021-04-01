@@ -1,0 +1,88 @@
+html , body , .container{
+
+height :100%;
+}
+
+body{
+font-family: arial ,serif;
+  margin: 0;
+  color: white;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0))
+  ,url(backgroundPic.png)no-repeat;
+  background-size: cover;
+
+}
+.Menu_Side{
+
+  width: 900px;
+float: right;
+
+}
+
+.Menu_Side ul li{
+
+width: 120px;
+float: right;
+margin: 10px auto;
+text-align: center;
+list-style-type: none;
+}
+
+.Menu_Side ul li a{
+
+color: darkgray;
+text-decoration: none;
+}
+
+.Menu_Side ul li:hover{background-color: gray;}
+.Menu_Side ul li a :hover{color: white;}
+
+
+.wd{
+width: 300px;
+height: 645px;
+background-color: Black;
+opacity: 0.9;
+padding: 55px;
+
+}
+
+.wd h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.wd h4{
+
+ text-align: justify;
+color: darkgray;
+font-weight: normal;
+}
+
+.wd h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 40px auto;
+}
+
+.button1 form  , input[type="button"]{
+
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 14px auto;
+ text-align: center;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.divider{
+
+  background-color: darkgray;
+  height: 1px;
+width: 95%;
+  margin: 80px auto auto;
+}
